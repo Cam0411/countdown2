@@ -49,6 +49,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 10px;
 }
 
 .container h1 {
@@ -127,7 +128,7 @@
 }
 
 .container .countDown .secSpan::after {
-  content: "Seccond";
+  content: "Second";
   position: absolute;
   top: 120%;
   color: #ffff;
@@ -192,7 +193,7 @@
     font-size: 14px;
   }
   .container .countDown .secSpan::after {
-    content: "Seccond";
+    content: "Second";
     position: absolute;
     top: 120%;
     color: #ffff;
