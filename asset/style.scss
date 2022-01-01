@@ -1,0 +1,186 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container
+{
+    height: 100vh;
+    background: url("Aesthetic-Desktop-Wallpapers.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    padding: 10px;
+    .sub__container 
+    {
+  
+  
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+        box-shadow: 0 50px 50px rgba(0,0,0,0.5),
+        0 0 0 100px  rgba(0,0,0,0.1);
+        height: 90%;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    h1 
+    {
+        color: #ffff;
+        text-align: center;
+        margin-bottom: 25px;
+        text-transform: uppercase;
+        font-size: 30px;
+        line-height: 60px;
+        font-weight: 700;
+        span 
+        {
+            font-weight:800;
+            font-size: 80px;
+        }
+    }
+    .about 
+    {
+        color: #ffff;
+        margin-bottom: 30px;
+        text-align: center;
+        line-height: 28px;
+    }
+    .countDown 
+    {
+        display: flex;
+
+        p 
+        {
+            height: 100px;
+           background: #ffff;
+           border-radius: 24px;
+            margin-left: 20px;
+            margin-right: 20px;
+            width: 100px;
+            font-size: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .daySpan::after 
+        {
+            content: "Day";
+            position: absolute;
+           top: 120%;
+           color: #ffff;
+           font-size: 18px;
+           font-weight: 600;
+        }
+        .hoursSpan::after 
+        {
+            content: "Hour";
+            position: absolute;
+           top: 120%;
+           color: #ffff;
+           font-size: 18px;
+           font-weight: 600;
+        }
+        .minSpan::after 
+        {
+            content: "Minute";
+            position: absolute;
+           top: 120%;
+           color: #ffff;
+           font-size: 18px;
+           font-weight: 600;
+        }
+        .secSpan::after 
+        {
+            content: "Seccond";
+            position: absolute;
+           top: 120%;
+           color: #ffff;
+           font-size: 18px;
+           font-weight: 600;
+        }
+    }
+}
+
+@media( max-width:600px)
+{
+    .container
+{
+    h1 
+    {
+        font-size: 25px;
+        line-height: 50px;
+        margin-bottom: 10px;
+        span 
+        {
+            font-weight:800;
+            font-size:60px;
+            margin-left: 10px;
+        }
+    }
+    .about 
+    {
+        margin-bottom: 15px;
+    }
+    .countDown 
+    {
+        display: flex;
+
+        p 
+        {
+            height: 50px;
+
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 50px;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .daySpan::after 
+        {
+            content: "Day";
+            position: absolute;
+           top: 120%;
+           color: #ffff;
+           font-size: 14px;
+        }
+        .hoursSpan::after 
+        {
+            content: "Hour";
+            position: absolute;
+           top: 120%;
+           color: #ffff;
+           font-size: 14px;
+        }
+        .minSpan::after 
+        {
+            content: "Minute";
+            position: absolute;
+           top: 120%;
+           color: #ffff;
+           font-size: 14px;
+        }
+        .secSpan::after 
+        {
+            content: "Seccond";
+            position: absolute;
+           top: 120%;
+           color: #ffff;
+           font-size: 14px;
+        }
+    }
+}
+}
