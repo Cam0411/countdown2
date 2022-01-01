@@ -3,7 +3,7 @@ var hourspan = document.querySelector(".hoursSpan")
 var minspan = document.querySelector(".minSpan")
 var secspan = document.querySelector(".secSpan")
 
-var firstSemester = new Date(2022,0,12,0,0).getTime();
+var firstSemester = new Date(2022,0,10,0,0).getTime();
 function semester(){
     var today = new Date().getTime();
     var timeRemain = firstSemester - today
