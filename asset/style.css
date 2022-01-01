@@ -101,7 +101,7 @@
 }
 
 .container .countDown .daySpan::after {
-  content: "Day";
+  content: "Days";
   position: absolute;
   top: 120%;
   color: #ffff;
@@ -110,7 +110,7 @@
 }
 
 .container .countDown .hoursSpan::after {
-  content: "Hour";
+  content: "Hours";
   position: absolute;
   top: 120%;
   color: #ffff;
@@ -119,7 +119,7 @@
 }
 
 .container .countDown .minSpan::after {
-  content: "Minute";
+  content: "Minutes";
   position: absolute;
   top: 120%;
   color: #ffff;
@@ -128,7 +128,7 @@
 }
 
 .container .countDown .secSpan::after {
-  content: "Second";
+  content: "Seconds";
   position: absolute;
   top: 120%;
   color: #ffff;
@@ -172,28 +172,28 @@
             align-items: center;
   }
   .container .countDown .daySpan::after {
-    content: "Day";
+    content: "Days";
     position: absolute;
     top: 120%;
     color: #ffff;
     font-size: 14px;
   }
   .container .countDown .hoursSpan::after {
-    content: "Hour";
+    content: "Hours";
     position: absolute;
     top: 120%;
     color: #ffff;
     font-size: 14px;
   }
   .container .countDown .minSpan::after {
-    content: "Minute";
+    content: "Minutes";
     position: absolute;
     top: 120%;
     color: #ffff;
     font-size: 14px;
   }
   .container .countDown .secSpan::after {
-    content: "Second";
+    content: "Seconds";
     position: absolute;
     top: 120%;
     color: #ffff;
