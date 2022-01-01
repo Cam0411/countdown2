@@ -12,7 +12,7 @@ function semester(){
     var sec = 1000;
     var  min = sec * 60;
     var hours = min * 60 
-    var day =  hours * 30;
+    var day =  hours * 24;
     
 
     var renderDay = Math.floor(timeRemain / (day))
