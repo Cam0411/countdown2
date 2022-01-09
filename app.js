@@ -13,7 +13,6 @@ function semester(){
     var  min = sec * 60;
     var hours = min * 60 
     var day =  hours * 24;
-    
 
     var renderDay = Math.floor(timeRemain / (day))
     var renderHour = Math.floor((timeRemain % (day)) / (hours))
@@ -25,7 +24,15 @@ function semester(){
     hourspan.innerHTML = renderHour  
     minspan.innerHTML = renderMin  
     secspan.innerHTML = renderSec
+
+    if (timeRemain <= 0){
+        dayspan.innerHTML = 0
+        hourspan.innerHTML = 0 
+        minspan.innerHTML = 0 
+        secspan.innerHTML = 0
+    }
 }
 setInterval( () => {
     semester()
 },1000)
+
